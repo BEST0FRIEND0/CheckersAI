@@ -7,10 +7,10 @@ display.fill((244, 220, 181))
 
 pygame.display.set_caption("Checkers")
 
-wChecker = pygame.image.load("C:\\Users\\lauri\\OneDrive\\Desktop\\Checkers\\assets\\White.png")
-bChecker = pygame.image.load("C:\\Users\\lauri\\OneDrive\\Desktop\\Checkers\\assets\\Black.png")
-wQueen = pygame.image.load("C:\\Users\\lauri\\OneDrive\\Desktop\\Checkers\\assets\\WhiteQ.png")
-bQueen = pygame.image.load("C:\\Users\\lauri\\OneDrive\\Desktop\\Checkers\\assets\\BlackQ.png")
+wChecker = pygame.image.load("./assets/White.png")
+bChecker = pygame.image.load("./assets/Black.png")
+wQueen = pygame.image.load("./assets/WhiteQ.png")
+bQueen = pygame.image.load("./assets/BlackQ.png")
 
 class WhiteChecker(pygame.sprite.Sprite):
     def __init__(self, x, y):
